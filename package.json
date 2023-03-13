@@ -1,0 +1,30 @@
+{
+    "name": "playwright-component-testing-with-react",
+    "private": true,
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "test": "playwright test -c playwright-ct.config.ts",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@playwright/experimental-ct-react": "1.31.2",
+        "@tailwindcss/forms": "0.5.3",
+        "@types/react": "18.0.28",
+        "@types/react-dom": "18.0.11",
+        "@vitejs/plugin-react": "3.1.0",
+        "autoprefixer": "10.4.14",
+        "postcss": "8.4.21",
+        "prettier": "2.8.4",
+        "tailwindcss": "3.2.7",
+        "typescript": "4.9.5",
+        "vite": "4.1.4"
+    }
+}
